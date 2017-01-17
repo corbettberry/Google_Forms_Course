@@ -1,9 +1,9 @@
 - Class: meta
-  Course: Google Forms Course
+  Course: Transcriptomics
   Lesson: Lesson 1
-  Author: Sean Kross
+  Author: Corbett Berry
   Type: Standard
-  Organization: The Johns Hopkins Data Science Lab
+  Organization: University of Pennsylvania
   Version: 2.4.1
 
 - Class: text
@@ -243,12 +243,6 @@
   CorrectAnswer: my_div
   AnswerTests: omnitest(correctExpr='my_div')
   Hint: If your programming environment doesn't support auto-completion, just type my_div and hit Enter to move on.
-
-- Class: cmd_question
-  Output: Did you enjoy this lesson?
-  CorrectAnswer: NULL
-  AnswerTests: Yes;No
-  Hint: hint
 
 - Class: mult_question
   Output: Would you like to submit the log of this lesson to Google Forms so
