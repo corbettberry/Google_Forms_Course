@@ -10,6 +10,7 @@
 # variables when appropriate. The answer test, creates_new_var()
 # can be used for for the purpose, but it also re-evaluates the
 # expression which the user entered, so care must be taken.
+
 # Get the swirl state
 getState <- function(){
   # Whenever swirl is running, its callback is at the top of its call stack.
@@ -17,18 +18,10 @@ getState <- function(){
   environment(sys.function(1))$e
 }
 
-# Get the value which a user either entered directly or was computed
-# by the command he or she entered.
-getVal <- function(){
-  getState()$val
+# Retrieve the log from swirl's state
+getLog <- function(){
+  getState()$log
 }
-
-# Get the last expression which the user entered at the R console.
-getExpr <- function(){
-  getState()$expr
-}
-
-
 
 submit_log <- function(){
   
