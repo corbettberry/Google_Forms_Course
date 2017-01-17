@@ -1,10 +1,10 @@
-Class: meta
-  Course: R Programming
-  Lesson: Basic Building Blocks
-  Author: Nick Carchedi
+- Class: meta
+  Course: Google Forms Course
+  Lesson: Lesson 1
+  Author: Sean Kross
   Type: Standard
-  Organization: JHU Biostat
-  Version: 2.2.0
+  Organization: The Johns Hopkins Data Science Lab
+  Version: 2.4.1
 
 - Class: text
   Output: In this lesson, we will explore some basic building blocks of the R programming
