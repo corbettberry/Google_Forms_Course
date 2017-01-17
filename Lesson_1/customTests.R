@@ -29,6 +29,10 @@ getExpr <- function(){
 }
 
 
+# Retrieve the log from swirl's state
+getLog <- function(){
+  getState()$log
+}
 
 submit_log <- function(){
   
